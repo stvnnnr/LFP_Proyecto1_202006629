@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>508</width>
-    <height>428</height>
+    <width>818</width>
+    <height>589</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -64,25 +64,6 @@
     </property>
     <property name="text">
      <string>Salir</string>
-    </property>
-   </widget>
-   <widget class="QFrame" name="frameImagen">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>80</y>
-      <width>391</width>
-      <height>321</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Sunken</enum>
-    </property>
-    <property name="lineWidth">
-     <number>6</number>
     </property>
    </widget>
    <widget class="QPushButton" name="botonOriginal">
@@ -157,6 +138,19 @@
     </property>
     <property name="text">
      <string>Bitxelar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="frameImagen">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>771</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
