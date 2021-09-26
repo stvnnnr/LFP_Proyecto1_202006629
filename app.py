@@ -55,10 +55,8 @@ class principal(QMainWindow):
         herramienta.datosImagen()
         herramienta.AgregarCeldas()
         herramienta.crearImagenHtml()
-        #webbrowser.open("imagenHtml.html")
+        webbrowser.open("imagenHtml.html")
         imgkit.from_file("imagenHtml.html","Imagen.jpg")
-        #hti = Html2Image()
-        #hti.screenshot(html_file='imagenHtml.html', save_as='Imagen.jpg')
         herramienta.filtroImagen()
 
     def abrirReportes(self):
